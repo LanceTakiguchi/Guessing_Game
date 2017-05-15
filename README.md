@@ -26,3 +26,5 @@ Understand object oriented programming (OOP) and model view controls (MVC) bette
 ## Future Features
 * OOP based logic
 * Add image link on Github
+* Custom guessing ranges
+* Guessing history
