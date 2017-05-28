@@ -8,39 +8,44 @@
     <meta name="author" content="Lance Takiguchi">
     <meta name="description" content="Lance Takiguchi's Guessing Game">
     <meta name="date" content="05/14/17, May 14, 2017">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1> Guessing Game </h1>
-    </header>
-    <div>
-        <h2> Description </h2>
-        <p> Guess what number the computer is thinking of. Select a number between 1 & 10 and see if your guess was correct </p>
-    </div>
-    <form>
-        <select name="guess">
-            <option value="1"> 1 </option>
-            <option value="2"> 2 </option>
-            <option value="3"> 3 </option>
-            <option value="4"> 4 </option>
-            <option value="5"> 5 </option>
-            <option value="6"> 6 </option>
-            <option value="7"> 7 </option>
-            <option value="8"> 8 </option>
-            <option value="9"> 9 </option>
-            <option value="10"> 10 </option>
-        </select>
-        <br><br>
-        <input type="submit">
-    </form> 
-    <div>
-        <h2> Correct! Play Again</h2>
-        <h2> Wrong! Try Again </h2>
-    </div>
-    <footer>
-        <!-- Contact Info -->
-    </footer>
-</body>
-</html>
+    <div class="container">
+        <header class="jumbotron">
+            <h1> Guessing Game </h1>
+        </header>
+        <div>
+            <h2> Description </h2>
+            <p> Guess what number the computer is thinking of. Select a number between 1 & 10 and see if your guess was correct </p>
+        </div>
+        <div class="row">
+            <form class="col-md-2 col-sm-3 col-xs-6 col-lg-1">
+                <lable class="form-group"> Pick a Number </lable>
+                <select class="form-control " name="guess">
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                    <option value="5"> 5 </option>
+                    <option value="6"> 6 </option>
+                    <option value="7"> 7 </option>
+                    <option value="8"> 8 </option>
+                    <option value="9"> 9 </option>
+                    <option value="10"> 10 </option>
+                </select>
+                <br><br>
+                <input type="submit">
+            </form> 
+        </div>
+        <div>
+            <h2> Correct! Play Again</h2>
+            <h2> Wrong! Try Again </h2>
+            <footer>
+                <!-- Contact Info -->
+            </footer>
+            <div>
+            </body>
+            </html>
