@@ -1,1 +1,5 @@
-// script.js created. Hello World
+$(document).ready(function() {
+	$(".userPick").click(function(){
+		console.log("You have choosen");
+	});
+});
