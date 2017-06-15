@@ -21,8 +21,14 @@ $(document).ready(function() {
 		var userGuess = parseInt($(".userGuess").val());
 		var aIPick = aINumGen(1,10);
 		var result = isSame(userGuess, aIPick);
-		
+		console.log(result);
+
 		$(".youGuess").text(userGuess);
 		$(".computerGuess").text(aIPick);
+		if(result){
+			$(".winOrLose").text("WIN");
+		}else{
+			$(".winOrLose").text("LOSE");
+		}
 	});
 });
