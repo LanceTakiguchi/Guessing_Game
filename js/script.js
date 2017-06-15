@@ -1,5 +1,9 @@
+var aINumGen = function(start, end){
+	return Math.floor((end - start + 1) * Math.random()) + start;
+}
 $(document).ready(function() {
 	$(".submitPick").click(function(){
-		console.log("User's guess:", $(".userGuess").val());
+		var userGuess = $(".userGuess").val();
+		var aIPick = aINumGen(1,10);
 	});
 });
