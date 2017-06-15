@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".userPick").click(function(){
-		console.log("You have choosen");
+	$(".submitPick").click(function(){
+		console.log("User's guess:", $(".userGuess").val());
 	});
 });
