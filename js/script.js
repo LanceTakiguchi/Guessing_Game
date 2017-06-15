@@ -21,5 +21,8 @@ $(document).ready(function() {
 		var userGuess = parseInt($(".userGuess").val());
 		var aIPick = aINumGen(1,10);
 		var result = isSame(userGuess, aIPick);
+		
+		$(".youGuess").text(userGuess);
+		$(".computerGuess").text(aIPick);
 	});
 });
